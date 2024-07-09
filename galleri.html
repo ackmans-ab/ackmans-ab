@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Om oss | Ackmans Bygg & VVS AB</title>
+    <title>Galleri | Ackmans Bygg & VVS AB</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Om oss | Ackmans Bygg & VVS AB" name="keywords" />
+    <meta content="Galleri | Ackmans Bygg & VVS AB" name="keywords" />
     <meta
-      content="Här får du information om Ackmans Bygg & VVS AB"
+      content="Det här är galleri för Ackmans Bygg & VVS AB"
       name="description"
     />
 
@@ -61,6 +61,13 @@
       </div>
     </div>
     <!-- Spinner End -->
+
+    <!--Image viewer Start-->
+    <div class="selected-container">
+      <button id="close-image" onclick="closeButtonClicked()">X</button>
+      <img src="img/galleri/galleri-1.jpg" class="selected-image" alt="" />
+    </div>
+    <!--Image viewer End-->
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-light d-none d-lg-block pt-1 pb-5">
@@ -120,8 +127,8 @@
           <div class="navbar-nav me-auto">
             <a href="index.html" class="nav-item nav-link">Hem</a>
             <a href="service.html" class="nav-item nav-link">Tjänster</a>
-            <a href="galleri.html" class="nav-item nav-link">Galleri</a>
-            <a href="about.html" class="nav-item nav-link active">Om oss</a>
+            <a href="galleri.html" class="nav-item nav-link active">Galleri</a>
+            <a href="about.html" class="nav-item nav-link">Om oss</a>
             <a href="contact.html" class="nav-item nav-link">Kontakta Oss</a>
           </div>
           <div
@@ -146,14 +153,14 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 py-5">
       <div class="container">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Om oss</h1>
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Galleri</h1>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb text-uppercase">
             <li class="breadcrumb-item">
               <a class="text-white" href="index.html">Hem</a>
             </li>
             <li class="breadcrumb-item text-white active" aria-current="page">
-              Om oss
+              Galleri
             </li>
           </ol>
         </nav>
@@ -161,169 +168,79 @@
     </div>
     <!-- Page Header End -->
 
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="text-secondary text-uppercase">Om oss</h6>
-            <h1 class="mb-4">Din Pålitliga Partner inom Bygg och VVS</h1>
-            <p class="mb-4">
-              Ackmans Bygg & VVS AB är ett ledande företag inom bygg- och
-              VVS-sektorn, dedikerat till att erbjuda högkvalitativa och
-              pålitliga tjänster till både privatpersoner och företag. Med många
-              års erfarenhet i branschen har vi byggt upp en stark expertis och
-              ett gott rykte för vårt professionella och noggranna arbete.
-            </p>
-            <p class="fw-medium text-primary">
-              <i class="fa fa-check text-success me-3"></i>Bostäder och
-              kommersiella VVS
-            </p>
-            <p class="fw-medium text-primary">
-              <i class="fa fa-check text-success me-3"></i>Kvalitetstjänster på
-              överkomliga priser
-            </p>
-            <p class="fw-medium text-primary">
-              <i class="fa fa-check text-success me-3"></i>Expert personal med
-              erfarenhet
-            </p>
-          </div>
-          <div class="col-lg-6 pt-4" style="min-height: 500px">
-            <div
-              class="position-relative h-100 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <img
-                class="position-absolute img-fluid w-100 h-100"
-                src="img/about-1.jpg"
-                style="object-fit: cover; padding: 0 0 50px 100px"
-                alt=""
-              />
-              <img
-                class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50"
-                src="img/about-2.jpg"
-                style="object-fit: cover"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
+    <!-- Gallery Start -->
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-1.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-2.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-3.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-4.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-5.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-6.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-7.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-8.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-9.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-10.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-11.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-12.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-13.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-14.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-15.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-16.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-17.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-18.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-19.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-20.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-21.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-22.jpg" alt="" class="gallery-image" />
+      </div>
+      <div class="gallery-item">
+        <img src="img/galleri/galleri-23.jpg" alt="" class="gallery-image" />
       </div>
     </div>
-    <!-- About End -->
-
-    <!-- Fact Start -->
-    <div class="container-fluid fact bg-dark my-5 py-5">
-      <div class="container">
-        <div class="row g-4">
-          <div
-            class="col-md-6 col-lg-3 text-center wow fadeIn"
-            data-wow-delay="0.1s"
-          >
-            <i class="fa fa-check fa-2x text-white mb-3"></i>
-            <h2 class="text-white mb-2">
-              <span data-toggle="counter-up">100</span>%
-            </h2>
-            <p class="text-white mb-0">Erfarenhet</p>
-          </div>
-          <div
-            class="col-md-6 col-lg-3 text-center wow fadeIn"
-            data-wow-delay="0.1s"
-          >
-            <i class="fa fa-check fa-2x text-white mb-3"></i>
-            <h2 class="text-white mb-2">
-              <span data-toggle="counter-up">100</span>%
-            </h2>
-            <p class="text-white mb-0">Kvalitet</p>
-          </div>
-          <div
-            class="col-md-6 col-lg-3 text-center wow fadeIn"
-            data-wow-delay="0.1s"
-          >
-            <i class="fa fa-check fa-2x text-white mb-3"></i>
-            <h2 class="text-white mb-2">
-              <span data-toggle="counter-up">100</span>%
-            </h2>
-            <p class="text-white mb-0">Professionella personal</p>
-          </div>
-          <div
-            class="col-md-6 col-lg-3 text-center wow fadeIn"
-            data-wow-delay="0.1s"
-          >
-            <i class="fa fa-check fa-2x text-white mb-3"></i>
-            <h2 class="text-white mb-2">
-              <span data-toggle="counter-up">100</span>%
-            </h2>
-            <p class="text-white mb-0">Nöjda kunder</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Fact End -->
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-6 pt-4" style="min-height: 500px">
-            <div
-              class="position-relative h-100 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <img
-                class="position-absolute img-fluid w-100 h-100"
-                src="img/build-1.jpg"
-                style="object-fit: cover; padding: 0 0 50px 100px"
-                alt=""
-              />
-              <img
-                class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50"
-                src="img/build-2.jpg"
-                style="object-fit: cover"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="text-secondary text-uppercase">Om oss</h6>
-            <h1 class="mb-4">Din Helhetsleverantör inom Bygg och VVS</h1>
-            <p class="mb-4">
-              Ackmans Bygg & VVS AB är ett etablerat företag inom bygg- och
-              VVS-branschen, dedikerat till att leverera högkvalitativa och
-              pålitliga tjänster till både privatpersoner och företag. Med en
-              gedigen erfarenhet och skickliga medarbetare strävar vi alltid
-              efter att överträffa våra kunders förväntningar. <br />Vi erbjuder
-              ett brett utbud av byggtjänster för att förvandla dina byggdrömmar
-              till verklighet:
-            </p>
-            <p class="fw-medium text-primary">
-              <i class="fa fa-check text-success me-3"></i>Renoveringar och
-              ombyggnationer
-            </p>
-            <p class="fw-medium text-primary">
-              <i class="fa fa-check text-success me-3"></i>Tillbyggnader
-            </p>
-            <p class="fw-medium text-primary">
-              <i class="fa fa-check text-success me-3"></i>Byggledning och
-              projektstyrning
-            </p>
-            <div class="bg-primary d-flex align-items-center p-4 mt-5">
-              <div
-                class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                style="width: 60px; height: 60px"
-              >
-                <i class="fa fa-phone-alt fa-2x text-primary"></i>
-              </div>
-              <div class="ms-3">
-                <p class="fs-5 fw-medium mb-2 text-white">Ring oss</p>
-                <h3 class="m-0 text-secondary">+46 73-760 31 08</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- About End -->
+    <!-- Gallery End -->
 
     <!-- Footer Start -->
     <div
@@ -409,6 +326,7 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="js/gallery.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
