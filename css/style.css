@@ -17,6 +17,38 @@
   z-index: 99;
 }
 
+.brand-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Company */
+
+.company-container {
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.company-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+  align-items: center;
+}
+
+.company-list img {
+  height: 70px;
+}
+
 /* Gallery */
 
 .gallery {
@@ -283,6 +315,11 @@
   .header-carousel .owl-carousel-item h1 {
     font-size: 30px;
     font-weight: 600;
+  }
+
+  .company-list img {
+    width: 65%;
+    height: auto;
   }
 }
 
