@@ -49,6 +49,18 @@
   height: 70px;
 }
 
+.p-video {
+  margin: auto;
+  max-width: 60%;
+}
+
+.video-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
 /* Gallery */
 
 .gallery {
