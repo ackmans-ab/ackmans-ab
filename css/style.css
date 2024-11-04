@@ -333,6 +333,18 @@
     width: 65%;
     height: auto;
   }
+
+  .p-video {
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .video-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
 }
 
 .header-carousel .owl-nav {
